@@ -1,24 +1,23 @@
-# README
+# Blog
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This will be a starter, demonstration and reference application which does almost nothing useful. Intention is to create a blogging app with Posts in order to have something to work with.
 
-Things you may want to cover:
+TODO:
 
-* Ruby version
+Planning to support:
 
-* System dependencies
+* Rails 5.x
+* PostgreSQL
+* Bootstrap 4
+* Bootstrap themeing
+* Deployment to Heroku
+* Devise for authentication
+* Sendgrid for transactional emails
+* Etc...
 
-* Configuration
+# Notes
 
-* Database creation
+## Versions
+* Ruby version 2.5.0
+* Rails version 5.2.0
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
