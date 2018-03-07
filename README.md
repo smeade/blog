@@ -2,13 +2,19 @@
 
 This will be a starter, demonstration and reference application which does almost nothing useful. Intention is to create a blogging app with Posts in order to have something to work with while documenting experiences with generic features used in almost all apps.
 
+**Live Demo**
+
+There's not much to see here yet:
+
+https://blog2018.herokuapp.com
+
 **Done**
 
 This app demonstrates:
 * Rails 5.x
 * PostgreSQL
 
-**TODO**
+**To Do**
 
 Consider implementing support for:
 
@@ -22,19 +28,13 @@ Consider implementing support for:
 Getting Started
 ---------------
 
-Additional Notes and Background
--------------------------------
-### Versions
-* Ruby version 2.5.0
-* Rails version 5.2.0
-
-### Heroku
+### Deploy to Heroku
 See [Getting Started with Rails 5.x on Heroku](https://devcenter.heroku.com/articles/getting-started-with-rails5).
 
 To deploy to and run on Heroku, your app must:
 
 - [x] use Postgres database
-- [x] have all dependencies declared in yoru Gemfile
+- [x] declare all dependencies in your Gemfile
 - [x] have a root route
 - [x] be stored in git
 
@@ -66,5 +66,12 @@ Visit your app:
 
 View the logs
 
-    $ heroku logs
+    $ heroku logs -t
+
+Additional Notes and Background
+-------------------------------
+### Versions
+* Ruby version 2.5.0
+* Rails version 5.2.0
+
 
