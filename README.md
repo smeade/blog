@@ -8,25 +8,51 @@ There's not much to see here yet:
 
 https://blog2018.herokuapp.com
 
-**Done**
+This app demonstrates how to:
 
-This app demonstrates:
-* Rails 5.x
-* PostgreSQL
-
-**To Do**
-
-Consider implementing support for:
-
-* Bootstrap 4
-* Bootstrap themeing
-* Deployment to Heroku
-* Devise for authentication
-* Sendgrid for transactional emails
-* Etc...
+- [x] Rails 5.x
+- [x] PostgreSQL
+- [x] Deployment to Heroku
+- [ ] Integrate Bootstrap 4
+- [ ] Theme Bootstrap 4
+- [ ] Authenticate via Devise
+- [ ] Manage accounts and teams
+- [ ] Send transactional emails with SendGrid
+- [ ] Build a pricing and plan selection page
+- [ ] Accept payments and subscriptions via Stripe
+- [ ] Integrate Google Analytics/Mixpanel/Segment/etc
+- [ ] Etc...
 
 Getting Started
 ---------------
+### Install Dependencies
+
+#### Rails 5.x
+
+If you do not yet have Rails 5.x installed, follow the [Getting Started Guide](http://guides.rubyonrails.org/getting_started.html) to [install Rails 5.x](http://guides.rubyonrails.org/getting_started.html#installing-rails). I recommend using [rvm](https://rvm.io).
+
+#### Postgres
+
+In order to deploy to Heroku, this project uses PostgreSQL.
+
+### Clone, configure and run locally
+
+1. Clone the project:
+
+        git clone git@github.com:smeade/blog.git
+        cd blog
+
+2. Install gems:
+
+        bundle install
+
+3. Create, migrate and seed the database:
+
+        rake db:create db:migrate db:seed
+
+4. Start the web server:
+
+        rails server
 
 ### Deploy to Heroku
 See [Getting Started with Rails 5.x on Heroku](https://devcenter.heroku.com/articles/getting-started-with-rails5).
